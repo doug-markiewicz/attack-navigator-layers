@@ -1,0 +1,6039 @@
+{
+	"name": "Data sources - CrowdStrike",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "description",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1500",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process command-line parameters, Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1501",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process command-line parameters, Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1496",
+			"tactic": "impact",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Process monitoring, Network protocol analysis, Network device logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1494",
+			"tactic": "impact",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1490",
+			"tactic": "impact",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Services, Windows event logs, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1489",
+			"tactic": "impact",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process command-line parameters, Process monitoring, Windows Registry, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1488",
+			"tactic": "impact",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Kernel drivers, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Kernel drivers, File monitoring, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1485",
+			"tactic": "impact",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1482",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring, PowerShell logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "PowerShell logs, API monitoring, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1480",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1223",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1223",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1222",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1220",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network, DLL monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1220",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network, DLL monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1191",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1191",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1217",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, File monitoring, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1211",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Error Reporting, Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1204",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1210",
+			"tactic": "lateral-movement",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Error Reporting, Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1202",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1214",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1203",
+			"tactic": "execution",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, System calls, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1201",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1196",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Binary file metadata, DLL monitoring, Windows Registry, Windows event logs, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1196",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Binary file metadata, DLL monitoring, Windows Registry, Windows event logs, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1212",
+			"tactic": "credential-access",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Windows Error Reporting, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1215",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "System calls, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1209",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Binary file metadata, DLL monitoring, File monitoring, Loaded DLLs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1198",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Application logs, DLL monitoring, Loaded DLLs, Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1198",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Application logs, DLL monitoring, Loaded DLLs, Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1219",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network intrusion detection system, Network protocol analysis, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1182",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1182",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1175",
+			"tactic": "lateral-movement",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Windows Registry, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Authentication logs, DLL monitoring, Packet capture, Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1179",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Binary file metadata, DLL monitoring, Loaded DLLs, Process monitoring, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1179",
+			"tactic": "privilege-escalation",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Binary file metadata, DLL monitoring, Loaded DLLs, Process monitoring, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1179",
+			"tactic": "credential-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Binary file metadata, DLL monitoring, Loaded DLLs, Process monitoring, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1185",
+			"tactic": "collection",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Packet capture, Process monitoring, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1170",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1170",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1173",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, DLL monitoring, Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1176",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Packet capture, System calls, Process use of network, Process monitoring, Browser extensions"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1174",
+			"tactic": "credential-access",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "DLL monitoring, Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1183",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Windows Registry, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1186",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1181",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1181",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1177",
+			"tactic": "execution",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, DLL monitoring, File monitoring, Kernel drivers, Loaded DLLs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1177",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, DLL monitoring, File monitoring, Kernel drivers, Loaded DLLs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1180",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1156",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Access tokens, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Access tokens, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1155",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, System calls, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1155",
+			"tactic": "lateral-movement",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, System calls, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1138",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, System calls, Windows Registry, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1138",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, System calls, Windows Registry, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Authentication logs, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1148",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Authentication logs, File monitoring, Environment variable"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1141",
+			"tactic": "credential-access",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, PowerShell logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, User interface, PowerShell logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1161",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Binary file metadata, Process monitoring, Process command-line parameters, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1142",
+			"tactic": "credential-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "System calls, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1159",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1160",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1160",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1135",
+			"tactic": "discovery",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Network protocol analysis, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1154",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1154",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1140",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1165",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1165",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1149",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Binary file metadata, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1152",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1152",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1152",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1150",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1150",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1150",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1158",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1158",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1168",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1168",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1139",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1137",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1163",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1166",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1166",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1151",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1151",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1167",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1153",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1132",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Process use of network, Process monitoring, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1129",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, DLL monitoring, File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1128",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "DLL monitoring, Windows Registry, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1126",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Packet capture, Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1125",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1124",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1123",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1121",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1121",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1118",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1118",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1117",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, Process monitoring, Windows Registry, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1117",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, Process monitoring, Windows Registry, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, File monitoring, Process monitoring, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1113",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"color": "#203F6C",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, File monitoring, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1111",
+			"tactic": "credential-access",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, Kernel drivers"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1109",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Disk forensics, API monitoring, Process monitoring, Component firmware"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1109",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Disk forensics, API monitoring, Process monitoring, Component firmware"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1108",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process use of network, Packet capture, Network protocol analysis, File monitoring, Authentication logs, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1108",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process use of network, Packet capture, Network protocol analysis, File monitoring, Authentication logs, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1106",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Process use of network, Netflow/Enclave netflow, Network protocol analysis, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "lateral-movement",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Process use of network, Netflow/Enclave netflow, Network protocol analysis, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1103",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1103",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Loaded DLLs, Process monitoring, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1100",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Authentication logs, File monitoring, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1100",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Authentication logs, File monitoring, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1099",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1094",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Process monitoring, Host network interface, Network intrusion detection system, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1093",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Process monitoring, Netflow/Enclave netflow, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1088",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "System calls, Process monitoring, Authentication logs, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1088",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "System calls, Process monitoring, Authentication logs, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1086",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Windows Registry, PowerShell logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "PowerShell logs, Loaded DLLs, DLL monitoring, Windows Registry, File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1085",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1085",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1083",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1080",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1079",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1077",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Authentication logs, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1076",
+			"tactic": "lateral-movement",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1074",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1073",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Process monitoring, Loaded DLLs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Third-party application logs, Windows Registry, Process monitoring, Process use of network, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "lateral-movement",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Third-party application logs, Windows Registry, Process monitoring, Process use of network, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1071",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1070",
+			"tactic": "defense-evasion",
+			"color": "#203F6C",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, API monitoring, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1069",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1068",
+			"tactic": "privilege-escalation",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Error Reporting, Process monitoring, Application logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1066",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Process monitoring, Process command-line parameters, Anti-virus, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1065",
+			"tactic": "command-and-control",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1064",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1064",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1063",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1061",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "collection",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Kernel drivers, Process monitoring, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "credential-access",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Kernel drivers, Process monitoring, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Windows Registry, File monitoring, DLL monitoring, Process monitoring, Named Pipes"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Windows Registry, File monitoring, DLL monitoring, Process monitoring, Named Pipes"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1054",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Sensor health and status, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1051",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1050",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1050",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Process monitoring, Process command-line parameters, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1049",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "User interface, Process monitoring, Process use of network, Packet capture, Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1047",
+			"tactic": "execution",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Netflow/Enclave netflow, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1043",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1042",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "User interface, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "credential-access",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network device logs, Host network interface, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "discovery",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network device logs, Host network interface, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1039",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, DLL monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, DLL monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1038",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, DLL monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1035",
+			"tactic": "execution",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1034",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1034",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1033",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1032",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Malware reverse engineering, Process use of network, Process monitoring, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1031",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1030",
+			"tactic": "exfiltration",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1029",
+			"tactic": "exfiltration",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1028",
+			"tactic": "execution",
+			"color": "#203F6C",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Authentication logs, Netflow/Enclave netflow, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1028",
+			"tactic": "lateral-movement",
+			"color": "#203F6C",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Authentication logs, Netflow/Enclave netflow, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Process use of network, File monitoring, Malware reverse engineering, Binary file metadata, Process command-line parameters, Environment variable, Process monitoring, Windows event logs, Network intrusion detection system, Email gateway, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1026",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1025",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1024",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1023",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1022",
+			"tactic": "exfiltration",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1020",
+			"tactic": "exfiltration",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1018",
+			"tactic": "discovery",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Process monitoring, Process use of network, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1017",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1016",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1015",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1015",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1013",
+			"tactic": "persistence",
+			"color": "#203F6C",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, API monitoring, DLL monitoring, Windows Registry, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1013",
+			"tactic": "privilege-escalation",
+			"color": "#203F6C",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, API monitoring, DLL monitoring, Windows Registry, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1011",
+			"tactic": "exfiltration",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "User interface, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1010",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1008",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Malware reverse engineering, Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1007",
+			"tactic": "discovery",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1004",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, File monitoring, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process command-line parameters, API monitoring, PowerShell logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Process monitoring, PowerShell logs, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1002",
+			"tactic": "exfiltration",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Binary file metadata, File monitoring, Process command-line parameters, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1001",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Process use of network, Process monitoring, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1492",
+			"tactic": "impact",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Application logs, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Network intrusion detection system, Detonation chamber, Email gateway, Mail server"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1195",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Web proxy, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1206",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1187",
+			"tactic": "credential-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Network protocol analysis, Network device logs, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1157",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1157",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1143",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1145",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1146",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1147",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1162",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1169",
+			"tactic": "privilege-escalation",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1119",
+			"tactic": "collection",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Data loss prevention, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1107",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process command-line parameters, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1096",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters, API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Kernel drivers, API monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1092",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Data loss prevention"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "lateral-movement",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Data loss prevention"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Data loss prevention"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1089",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters, API monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, File monitoring, Services, Windows Registry, Process command-line parameters, Anti-virus"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1081",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1060",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1052",
+			"tactic": "exfiltration",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Data loss prevention, File monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1044",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Services, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1044",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Services, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1009",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "File monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Binary file metadata, File monitoring, Malware reverse engineering"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1058",
+			"tactic": "persistence",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process command-line parameters, Services, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1058",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process command-line parameters, Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process command-line parameters, Services, Windows Registry"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1207",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Authentication logs, Network protocol analysis, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Packet capture, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Packet capture, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1178",
+			"tactic": "privilege-escalation",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Authentication logs, Windows event logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1115",
+			"tactic": "collection",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "credential-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, API monitoring, Windows event logs, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring, Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, API monitoring, Windows event logs, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1067",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, MBR, VBR"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1019",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, BIOS, EFI"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1006",
+			"tactic": "defense-evasion",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1483",
+			"tactic": "command-and-control",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Packet capture, Network device logs, Netflow/Enclave netflow, DNS records"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1189",
+			"tactic": "initial-access",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Network device logs, Process use of network, Web proxy, Network intrusion detection system, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1104",
+			"tactic": "command-and-control",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Network device logs, Network protocol analysis, Packet capture, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1095",
+			"tactic": "command-and-control",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Process use of network"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Host network interface, Netflow/Enclave netflow, Network intrusion detection system, Network protocol analysis, Packet capture, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1171",
+			"tactic": "credential-access",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows event logs, Windows Registry, Packet capture, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1131",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "DLL monitoring, Windows Registry, Loaded DLLs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1122",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, DLL monitoring, Loaded DLLs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1122",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows Registry, DLL monitoring, Loaded DLLs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1101",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Windows Registry"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "DLL monitoring, Windows Registry, Loaded DLLs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1213",
+			"tactic": "collection",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Application logs, Authentication logs, Data loss prevention, Third-party application logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1199",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Application logs, Authentication logs, Third-party application logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1184",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "persistence",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "initial-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1110",
+			"tactic": "credential-access",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1097",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1075",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"color": "#182D57",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs"
+				},
+				{
+					"name": "-Products",
+					"value": "CrowdStrike"
+				}
+			]
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [
+		{
+			"color": "#B8E1FB",
+			"label": "1-25% of data sources available"
+		},
+		{
+			"color": "#57B2E3",
+			"label": "26-50% of data sources available"
+		},
+		{
+			"color": "#227BB1",
+			"label": "51-75% of data sources available"
+		},
+		{
+			"color": "#203F6C",
+			"label": "76-99% of data sources available"
+		},
+		{
+			"color": "#182D57",
+			"label": "100% of data sources available"
+		}
+	],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
