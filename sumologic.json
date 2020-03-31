@@ -24,7 +24,8 @@
 		{
 			"techniqueID": "T1531",
 			"tactic": "impact",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -32,7 +33,8 @@
 		{
 			"techniqueID": "T1098",
 			"tactic": "credential-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -40,7 +42,8 @@
 		{
 			"techniqueID": "T1098",
 			"tactic": "persistence",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -48,7 +51,8 @@
 		{
 			"techniqueID": "T1110",
 			"tactic": "credential-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -56,7 +60,8 @@
 		{
 			"techniqueID": "T1530",
 			"tactic": "collection",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -64,7 +69,8 @@
 		{
 			"techniqueID": "T1213",
 			"tactic": "collection",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -72,7 +78,8 @@
 		{
 			"techniqueID": "T1039",
 			"tactic": "collection",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -80,7 +87,8 @@
 		{
 			"techniqueID": "T1025",
 			"tactic": "collection",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -88,7 +96,8 @@
 		{
 			"techniqueID": "T1189",
 			"tactic": "initial-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -96,7 +105,8 @@
 		{
 			"techniqueID": "T1133",
 			"tactic": "persistence",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -104,7 +114,8 @@
 		{
 			"techniqueID": "T1133",
 			"tactic": "initial-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -112,7 +123,8 @@
 		{
 			"techniqueID": "T1193",
 			"tactic": "initial-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -120,7 +132,8 @@
 		{
 			"techniqueID": "T1192",
 			"tactic": "initial-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -128,7 +141,8 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "defense-evasion",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -136,7 +150,8 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "persistence",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -144,7 +159,8 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "privilege-escalation",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -152,7 +168,17 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "initial-access",
-			"color": "#9ecae1",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -160,9 +186,9 @@
 	],
 	"gradient": {
 		"colors": [
-			"#ff6666",
+			"#8ec843",
 			"#ffe766",
-			"#8ec843"
+			"#ff6666"
 		],
 		"minValue": 0,
 		"maxValue": 100
